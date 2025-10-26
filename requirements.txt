@@ -1,0 +1,15 @@
+# AI/ML 및 LangChain 관련
+langchain
+langchain-core
+langchain-community
+langchain-openai
+openai
+pydantic
+chromadb
+
+# 웹 앱 인터페이스
+streamlit>=1.35.0 # 최신 st.chat_input 및 성능 안정성 고려
+
+# 데이터 처리 및 환경 설정
+pandas
+python-dotenv
