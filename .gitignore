@@ -1,0 +1,33 @@
+
+#1. 환경 변수 및 보안 파일
+
+.env
+
+# 2. 파이썬 환경 파일
+# 가상 환경 폴더
+venv/
+.venv/
+env/
+.env/
+
+# Python 컴파일 및 캐시 파일
+__pycache__/
+*.pyc
+
+#3. 데이터베이스 및 캐시 파일
+# LangChain Chroma 벡터 DB 저장 폴더 (크기가 크고 로컬 환경 의존성이 높음)
+# your_chatbot_project/chroma_persist/ 폴더를 Git에서 제외합니다.
+chroma_persist/
+
+# Streamlit 로컬 캐시 폴더
+.streamlit/
+.ipynb_checkpoints
+
+# ----------------------------------------------------------------------
+# 4. OS 및 에디터 파일
+# ----------------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
